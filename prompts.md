@@ -19,17 +19,32 @@ distinto, y sin este archivo no se distinguen.
 Borra el ejemplo de abajo cuando escribas el primero.
 
 ---
+Para todos los prompts:
+**Modelo:** Sonnet 5.5
+**Herramienta:** Claude Code
 
 ## Prompt 1
 
-**Modelo:** Opus 1M xHigh
-**Herramienta:** Claude Code
-
 ```
-Este es el ejemplo. Bórralo.
-
-El prompt va aquí dentro, entero y con sus saltos de línea,
-para que se sepa dónde empieza y dónde acaba.
+Necesito que me definas las capabilities del sistema, es decir las cosas que el producto ya sabe hacer hoy. En pocas lineas. Un listado de features de la aplicacion. Y tambien que me digas como es el modelo de datos actual. Un resumen de todo esto, nada muy detallado.
 ```
 
-**Qué salió:** (opcional, una línea) funcionó a la primera / tuve que insistir / me inventó una ruta que no existe.
+## Prompt 2
+
+```
+Quiero que FlowSync sea una herramienta para que los equipos remotos sepan en qué está trabajando cada uno sin tener que hacer reuniones de sincronización. Algo tipo tareas compartidas pero más en tiempo real y menos rollo que Jira.
+Haceme las 5 preguntas antes de proponer un cambio, que más reducirían la incertidumbre sobre el problema, los usuarios y el alcance. 5 preguntas, una sola ronda, sin bajar al modelo de datos ni a endpoints.
+```
+
+## Prompt3
+
+```
+Con todo lo que definimos, armá el alcance del MVP en cinco bloques:
+problema, usuarios, propuesta de valor, alcance y NO-alcance.
+Sé agresiva recortando: preferí una vertical fina terminada a varias
+cosas a medias. Justificá cada exclusión del NO-alcance. Es un
+documento de producto: sin tablas de base de datos, sin endpoints,
+sin arquitectura.
+```
+
+
